@@ -1,0 +1,10 @@
+Major Changes:
+	Open world
+	Scaling Gym Leaders/Trainers
+
+Minor Changes:
+	Multiple Player Sprites
+	100% Obtainability of Pokemon
+
+Abilities added:
+	Quick Shot - Bullet moves have priority
