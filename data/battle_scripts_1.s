@@ -5509,6 +5509,7 @@ BattleScript_HandleFaintedMonLoop::
 	switchineffects BS_FAINTED_MULTIPLE_1
 	jumpifbytenotequal gBattlerFainted, gBattlersCount, BattleScript_HandleFaintedMonLoop
 BattleScript_HandleFaintedMonMultipleEnd::
+	switchineffects BS_FAINTED_MULTIPLE_2
 	end2
 
 BattleScript_LocalTrainerBattleWon::
@@ -8572,7 +8573,7 @@ BattleScript_SynchronizeActivates::
 	return
 
 BattleScript_NoItemSteal::
-	pause B_WAIT_TIME_SHORT
+	call BattleScript_AbilityPopUpTarget
 	printstring STRINGID_PKMNSXMADEYINEFFECTIVE
 	waitmessage B_WAIT_TIME_LONG
 	return
