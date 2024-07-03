@@ -1,6 +1,7 @@
 Major Changes:
 	Open world
 	Scaling Gym Leaders/Trainers
+	HMs no longer nessesary for basic transversal, instead they unlock special areas
 
 Minor Changes:
 	Multiple Player Sprites
