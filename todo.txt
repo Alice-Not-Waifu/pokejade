@@ -1,11 +1,27 @@
 Major Changes:
+
 	Open world
 	Scaling Gym Leaders/Trainers
-	HMs no longer nessesary for basic transversal, instead they unlock special areas
-
-Minor Changes:
+	HMs no longer nessesary for basic transversal, being replaced by new key items
 	Multiple Player Sprites
 	100% Obtainability of Pokemon
 
+Minor Changes:
+	Auto lower case in naming screens
+
+Move Rebalance:
+
+	Rock Throw:
+		90% Accuracy -> 100% Accuracy
+
+	Cut:
+		Normal Type -> Bug Type
+		95% Accuracy -> 100$ Accuracy
+		Normal Crit rate -> High Crit rate
+
+	Strength:
+		Normal Type -> Rock Type
+
 Abilities added:
 	Quick Shot - Bullet moves have priority
+	Exosqueleton - 10% less damage from moves
